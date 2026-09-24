@@ -50,7 +50,7 @@ ESP32_S3_USBC/
 ### 📄 1. Circuit Schematic (`ESP32 with USBC.SchDoc`)
 Complete circuit schematic including ESP32-S3 microcontroller circuitry, USB-C interface, power regulation, and ESD protection:
 
-![ESP32 S3 Schematic](Image/Schematic.png)
+![ESP32 S3 Schematic](Images/Schematic.png)
 
 ---
 
@@ -61,23 +61,23 @@ Complete 4-layer routing layout, JLCPCB stackup configuration (JLC04161H-3313), 
 * **Stackup Model:** JLCPCB 4-Layer Standard (JLC04161H-3313)
 * **Controlled Impedance:** $90\,\Omega$ Differential Traces for USB 2.0 ($D+/D-$)
 
-![Layer Stack Manager](Image/Layer%20Stack%20Manager.png)
+![Layer Stack Manager](Images/Layer%20Stack%20Manager.png)
 
 #### Full Board Layout (All Layers Combined)
 Preview of all signal layers and internal planes overlaid:
-![All Layers View](Image/All%20Layers.png)
+![All Layers View](Images/All%20Layers.png)
 
 #### 3D Board Views
 | Top View (3D Render) | Bottom View (3D Render) |
 | :---: | :---: |
-| ![3D Model TopView](Image/3D%20Model%20TopView.png) | ![3D Model BottomView](Image/3D%20Model%20BottomView.png) |
+| ![3D Model TopView](Images/3D%20Model%20TopView.png) | ![3D Model BottomView](Images/3D%20Model%20BottomView.png) |
 
 #### 2x2 PCB Layer Breakdown
 | Layer 1 (Top Signal) | Layer 2 (GND Plane) |
 | :---: | :---: |
-| ![L1 Top Layer](Image/L1.png) | ![L2 GND Plane](Image/L2.png) |
+| ![L1 Top Layer](Images/L1.png) | ![L2 GND Plane](Images/L2.png) |
 | **Layer 3 (Power Plane)** | **Layer 4 (Bottom Signal)** |
-| ![L3 Power Plane](Image/L3.png) | ![L4 Bottom Layer](Image/L4.png) |
+| ![L3 Power Plane](Images/L3.png) | ![L4 Bottom Layer](Images/L4.png) |
 
 ---
 
