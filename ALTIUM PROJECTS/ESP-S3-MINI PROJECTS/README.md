@@ -18,7 +18,7 @@ All schematic symbols, PCB footprints, stackup configurations, and 3D component 
 | **Target PCB Stackup** | JLCPCB **JLC04161H-3313** Standard Stackup |
 | **Connector Type** | USB Type-C (USB 2.0 High-Speed) |
 | **Circuit Protection** | TVS Diode Array (`AQ3045-01ETG`) for ESD protection on $V_{BUS}$ & Data Lines |
-| **Impedance Control** | $90\,\Omega$ Differential Pair Routing for USB Data Lines ($D+/D-$) |
+| **Impedance Control** | $90\\Omega$ Differential Pair Routing for USB Data Lines ($D+/D-$) |
 | **Library Assets** | Custom Schematic Symbols, PCB Footprints & 3D STEP Models |
 
 ---
