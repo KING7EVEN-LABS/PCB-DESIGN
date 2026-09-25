@@ -57,10 +57,6 @@ All schematic symbols, PCB footprints, stackup configurations, and 3D component 
 
 ---
 
-
-
----
-
 ## 📁 Repository Structure
 
 ```text
@@ -127,6 +123,15 @@ Preview of all signal layers and internal planes overlaid:
 | **Schematic Library** | Custom Schematic Symbol Library | [`Schlib.SchLib`](SchLib.SchLib) |
 | **PCB Library** | Custom Component Footprint Library | [`PcbLib.PcbLib`](PcbLib.PcbLib) |
 | **Output Job File** | Altium Manufacturing Output Job File | [`Job.OutJob`](Job.OutJob) |
+
+---
+
+## 📄 Schematics & PCB Design Documents
+
+| File Type | Description | Download Link |
+| :--- | :--- | :--- |
+| **Schematic PDF** | Full Schematic Circuit Diagram | [`Schematic.pdf`](Schematic.pdf) |
+| **PCB Layout PDF** | Complete Board Layout & Layer Stackup | [`PCB_Layout.pdf`](PCB_Layout.pdf) |
 
 ---
 
