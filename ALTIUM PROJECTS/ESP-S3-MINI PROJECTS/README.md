@@ -22,7 +22,7 @@ All schematic symbols, PCB footprints, stackup configurations, and 3D component 
 - **Complete Custom Libraries**: Built with fully verified, custom-designed schematic symbols and PCB footprints for all components.
 ---
 
-## 📐 Key Specifications
+## 🛠️ Key Specifications
 
 | Parameter | Specification Detail |
 | :--- | :--- |
