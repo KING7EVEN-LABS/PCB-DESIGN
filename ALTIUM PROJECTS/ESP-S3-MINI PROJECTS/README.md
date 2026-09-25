@@ -17,10 +17,9 @@ All schematic symbols, PCB footprints, stackup configurations, and 3D component 
 - **Power Delivery**: High-current **TL1963A-33DCYR** (1.5A Low-Noise LDO) supplying stable 3.3V power during high RF transmit current spikes.
 - **Power Selectors**: Flexible 3-pin headers with jumpers for independent 5V and 3V3 power domain selection.
 - **User Interface & Controls**: On-board RESET and BOOT tactile switches with Status/User LEDs (Red and Yellow-Green 0402).
-- **Complete Custom Libraries**: Built with fully verified, custom-designed schematic symbols and PCB footprints for all components.
 - **USB High-Speed / Differential Routing**: Controlled 90 Ω differential pair impedance routing on USB D+/D- traces with precise length matching for reliable data transmission.
 - **Custom 4-Layer Stackup**: Engineered using a 4-layer PCB architecture (`Signal` - `Power` - `Ground` - `Signal`) for optimal power integrity, low noise, and minimal EMI.
-
+- **Complete Custom Libraries**: Built with fully verified, custom-designed schematic symbols and PCB footprints for all components.
 ---
 
 ## 📐 Key Specifications
@@ -29,6 +28,7 @@ All schematic symbols, PCB footprints, stackup configurations, and 3D component 
 | :--- | :--- |
 | **CAD Tool** | Altium Designer |
 | **Microcontroller** | ESP32-S3-MINI-1-N8 (Xtensa® dual-core 32-bit LX7, up to 240 MHz) |
+| **Wireless Connectivity** | 2.4 GHz Wi-Fi (802.11 b/g/n) + Bluetooth® 5 (LE / Mesh) |
 | **Board Layers** | 4-Layer Board (`Signal` - `Power` - `Ground` - `Signal`) |
 | **Target PCB Stackup** | JLCPCB JLC04161H-3313 standard stackup |
 | **Connector Type** | 2x USB Type-C Receptacles (217179-0001, 24-Pin SMD RA) |
@@ -43,7 +43,7 @@ All schematic symbols, PCB footprints, stackup configurations, and 3D component 
 
 ---
 
-## 📂 Primary Component List (BOM Excerpt)
+## 📂 Primary Component Lists
 
 | Component ID | Description |
 | :--- | :--- |
@@ -54,6 +54,10 @@ All schematic symbols, PCB footprints, stackup configurations, and 3D component 
 | `217179-0001` | CONN RCP USB2.0 TYP C 24P SMD RA |
 | `SS8050-G` | TRANS NPN 25V 1.5A SOT-23-3 |
 | `PTS645SH50SMTR92LFS` | SWITCH TACTILE SPST-NO 0.05A 12V |
+
+---
+
+
 
 ---
 
@@ -116,22 +120,28 @@ Preview of all signal layers and internal planes overlaid:
 ---
 
 ### 📦 3. Custom Libraries & Project Files
-* **`esp32-s3-mini.PrjPcb`** — Main Altium Designer Project file
-* **`Schlib.SchLib`** — Custom Schematic Symbol Library
-* **`PcbLib.PcbLib`** — Custom Component Footprint Library
-* **`Job.OutJob`** — Altium Manufacturing Output Job File
+
+| File Type | Description | File Link |
+| :--- | :--- | :--- |
+| **Project File** | Main Altium Designer Project file | [`esp32-s3-mini.PrjPcb`](esp32-s3-mini.PrjPcb) |
+| **Schematic Library** | Custom Schematic Symbol Library | [`Schlib.SchLib`](SchLib.SchLib) |
+| **PCB Library** | Custom Component Footprint Library | [`PcbLib.PcbLib`](PcbLib.PcbLib) |
+| **Output Job File** | Altium Manufacturing Output Job File | [`Job.OutJob`](Job.OutJob) |
 
 ---
 
 ## 🏭 Output Files & Manufacturing Release
 
-All fabrication and assembly outputs are generated via **`Job.OutJob`** for standard PCB manufacturing:
+All fabrication and assembly outputs are generated via **[`Job.OutJob`](Job.OutJob)** for standard PCB manufacturing:
 
 ### 📦 Output Files
-* **Gerber Files:** Complete layer traces, silkscreen, solder mask, and paste layer outputs.
-* **NC Drill Files:** Plated (PTH) and non-plated (NPTH) hole coordinates and drill specifications.
-* **Pick & Place File (`.csv`):** Component placement coordinates and orientations for automated SMT assembly.
-* **Bill of Materials (`BOM`):** Comprehensive component list with designators, footprints, and manufacturer part numbers.
+
+| Manufacturing File | Description | Download / Folder Link |
+| :--- | :--- | :--- |
+| **Gerber Files** | Complete layer traces, silkscreen, solder mask, and paste layer outputs. | [`Gerber Files`](Project%20Outputs%20for%20esp32-s3-mini/Gerber/) |
+| **NC Drill Files** | Plated (PTH) and non-plated (NPTH) hole coordinates and drill specifications. | [`NC Drill Files`](Project%20Outputs%20for%20esp32-s3-mini/NC%20Drill) |
+| **Pick & Place File** | Component placement coordinates and orientations for automated SMT assembly. | [`Pick & Place File`](Project%20Outputs%20for%20esp32-s3-mini/Pick%20Place) |
+| **Bill of Materials** | Comprehensive component list with designators, footprints, and manufacturer part numbers. | [`Bill of Materials (BOM)`](Project%20Outputs%20for%20esp32-s3-mini/BOM) |
 
 ---
 
