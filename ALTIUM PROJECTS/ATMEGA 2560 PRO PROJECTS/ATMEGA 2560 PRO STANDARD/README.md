@@ -104,8 +104,8 @@ Preview of all signal layers and internal planes overlaid:
 ### 📦 3. Custom Libraries & Project Files
 
 * [`ATmega_2560_Pro.PrjPcb`](./ATmega_2560_Pro.PrjPcb) — Main Altium Designer Project file
-* [`SchLib.SchLib`](./SchLib.SchLib) — Custom Schematic Symbol Library
-* [`PcbLib.PcbLib`](./PcbLib.PcbLib) — Custom Component Footprint Library
+* [`SchLib.SchLib`](./Schlib.SchLib) — Custom Schematic Symbol Library
+* [`PcbLib.PcbLib`](./Pcblib.PcbLib) — Custom Component Footprint Library
 * [`Job.OutJob`](./Job.OutJob) — Altium Manufacturing Output Job File
 
 ---
@@ -116,7 +116,7 @@ All fabrication and assembly outputs are generated via `Job.OutJob` for standard
 
 #### 📦 Output Files
 
-* **[Gerber Files](./Project_Outputs_for_ATmega_2560_Pro/Gerber/):** Complete layer traces, silkscreen, solder mask, and paste layer outputs.
-* **[NC Drill Files](./Manufacturing/NC_Drill/):** Plated (PTH) and non-plated (NPTH) hole coordinates and drill specifications.
+* **[Gerber Files]('./Project Outputs for ATmega_2560_Pro/Gerber/'):** Complete layer traces, silkscreen, solder mask, and paste layer outputs.
+* **[NC Drill Files](.//NC_Drill/):** Plated (PTH) and non-plated (NPTH) hole coordinates and drill specifications.
 * **[Pick & Place File (.csv)](./Manufacturing/Pick_and_Place.csv):** Component placement coordinates and orientations for automated SMT assembly.
 * **[Bill of Materials (BOM)](./Manufacturing/BOM.xlsx):** Comprehensive component list with designators, footprints, and manufacturer part numbers.
