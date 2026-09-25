@@ -130,8 +130,8 @@ Preview of all signal layers and internal planes overlaid:
 
 | File Type | Description | Download Link |
 | :--- | :--- | :--- |
-| **Schematic PDF** | Full Schematic Circuit Diagram | [`Schematic.pdf`](Schematic.pdf) |
-| **PCB Layout PDF** | Complete Board Layout & Layer Stackup | [`PCB_Layout.pdf`](PCB_Layout.pdf) |
+| **Schematic PDF** | Full Schematic Circuit Diagram | [`Schematic.pdf`](./PDFs/Schematic.pdf) |
+| **PCB Layout PDF** | Complete Board Layout & Layer Stackup | [`PCB_Layout.pdf`](./PDFs/Pcb_Layout.pdf) |
 
 ---
 
