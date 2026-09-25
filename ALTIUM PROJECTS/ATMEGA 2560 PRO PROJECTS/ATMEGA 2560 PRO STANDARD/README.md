@@ -19,17 +19,18 @@ This project features a custom-designed **4-layer PCB layout** for the **ATmega2
 | Parameter | Specification Details |
 | :--- | :--- |
 | **CAD Tool** | Altium Designer |
-| **Microcontroller** | ATmega2560-16AU (8-bit AVR Architecture) |
+| **Microcontroller** | Microchip ATmega2560-16AU (8-bit AVR Architecture) |
 | **Board Layers** | 4-Layer Stackup (`Top Signal` - `GND Plane` - `PWR Plane` - `Bottom Signal`) |
-| **Target Stackup** | JLCPCB JLC04161H-3313 (1.6mm Finished Thickness, 1oz Outer / 0.5oz Inner) |
-| **Impedance Control**| **90 Ω Differential Impedance** matched on USB D+/D- signal traces |
-| **Form Factor** | Compact Square Layout with Centered Chip |
+| **Target PCB Stackup** | JLCPCB JLC04161H-3313 (1.6mm Finished Thickness, Outer 1oz / Inner 0.5oz) |
+| **Connector Type** | USB Type-C (USB 2.0 High-Speed) |
+| **Circuit Protection** | Dedicated ESD Protection IC (USBLC6-2SC6 / SRV05-4) on USB Lines |
+| **Impedance Control** | **90 Ω Differential Impedance** matched on USB D+/D- signal traces |
+| **Form Factor** | Compact Square Layout with Centered MCU |
 | **Clock Frequency** | 16 MHz External Crystal Oscillator |
 | **Power Supply** | Dual Power Architecture (5V Main Bus + AMS1117-3.3V LDO Regulation) |
-| **USB Bridge** | CH340G USB-to-UART Converter |
-| **Circuit Protection** | Dedicated ESD Protection on USB D+/D- Data Lines |
-| **Programming Headers**| Standard 2.54 mm Pitch Headers & ICSP Header |
-| **Library Assets** | Custom Schematics, PCB Footprints & 3D STEP Models |
+| **USB Bridge** | CH340G USB-to-UART Serial Converter |
+| **Programming Headers**| Standard 2.54 mm Pitch Pin Headers & ICSP Header |
+| **Library Assets** | Custom Schematic Symbols, IPC-Compliant PCB Footprints & 3D STEP Models |
 
 ---
 
