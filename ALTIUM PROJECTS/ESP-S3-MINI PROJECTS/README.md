@@ -8,18 +8,52 @@ All schematic symbols, PCB footprints, stackup configurations, and 3D component 
 
 ---
 
-## 🛠️ Key Specifications
+## 🌟 Key Features & Highlights
 
-| Parameter | Specification Details |
+- **Dual USB Architecture**:
+  - **USB Port 1 (UART Bridge)**: Dedicated **FT231XQ-R** USB-to-UART bridge for programming, serial debugging, and automated flash flashing via DTR/RTS auto-reset logic.
+  - **USB Port 2 (Native USB)**: Direct connection to ESP32-S3 Native USB (D+/D-) lines for USB OTG, USB CDC, and direct JTAG debugging.
+- **Circuit Protection**: Integrated **AQ3045-01ETG** low-capacitance TVS diodes (5.3VWM, 12VC) on high-speed USB data lines and power rails for robust ESD protection.
+- **Power Delivery**: High-current **TL1963A-33DCYR** (1.5A Low-Noise LDO) supplying stable 3.3V power during high RF transmit current spikes.
+- **Power Selectors**: Flexible 3-pin headers with jumpers for independent 5V and 3V3 power domain selection.
+- **User Interface & Controls**: On-board RESET and BOOT tactile switches with Status/User LEDs (Red and Yellow-Green 0402).
+- **Complete Custom Libraries**: Built with fully verified, custom-designed schematic symbols and PCB footprints for all components.
+- **USB High-Speed / Differential Routing**: Controlled 90 Ω differential pair impedance routing on USB D+/D- traces with precise length matching for reliable data transmission.
+- **Custom 4-Layer Stackup**: Engineered using a 4-layer PCB architecture (`Signal` - `Power` - `Ground` - `Signal`) for optimal power integrity, low noise, and minimal EMI.
+
+---
+
+## 📐 Key Specifications
+
+| Parameter | Specification Detail |
 | :--- | :--- |
 | **CAD Tool** | Altium Designer |
-| **Microcontroller** | ESP32-S3 Mini |
-| **Board Layers** | 4-Layer Stackup (`Signal` - `GND` - `PWR` - `Signal`) |
-| **Target PCB Stackup** | JLCPCB **JLC04161H-3313** Standard Stackup |
-| **Connector Type** | USB Type-C (USB 2.0 High-Speed) |
-| **Circuit Protection** | TVS Diode Array (`AQ3045-01ETG`) for ESD protection on $V_{BUS}$ & Data Lines |
-| **Impedance Control** | $90\\Omega$ Differential Pair Routing for USB Data Lines ($D+/D-$) |
-| **Library Assets** | Custom Schematic Symbols, PCB Footprints & 3D STEP Models |
+| **Microcontroller** | ESP32-S3-MINI-1-N8 (Xtensa® dual-core 32-bit LX7, up to 240 MHz) |
+| **Board Layers** | 4-Layer Board (`Signal` - `Power` - `Ground` - `Signal`) |
+| **Target PCB Stackup** | JLCPCB JLC04161H-3313 standard stackup |
+| **Connector Type** | 2x USB Type-C Receptacles (217179-0001, 24-Pin SMD RA) |
+| **Circuit Protection** | Dedicated TVS Diodes (AQ3045-01ETG, 5.3VWM, 12VC SOD882) on USB lines |
+| **Impedance Control** | 90 Ω Differential Pair Routing on USB D+/D- traces |
+| **Form Factor** | Compact Dev Board with standard 2.54mm dual breakout headers |
+| **Clock Frequency** | 240 MHz (MCU Core) / Integrated 40 MHz Crystal Oscillator |
+| **Power Supply** | High-Current Low-Noise LDO (TL1963A-33DCYR, 5V to 3.3V @ 1.5A) |
+| **USB Bridge** | FT231XQ-R (Full UART IC, 20QFN) |
+| **Programming Headers** | 3-Pin Headers (FTS-103) with Shunts (M50-1920005) + Auto-Reset Logic (SS8050-G NPN) |
+| **Library Assets** | Fully custom-built schematic symbols, PCB footprints, and integrated 3D STEP models for mechanical verification |
+
+---
+
+## 📂 Primary Component List (BOM Excerpt)
+
+| Component ID | Description |
+| :--- | :--- |
+| `ESP32-S3-MINI-1-N8` | 2.4GHz Wi-Fi/BT Module (8MB Flash) |
+| `FT231XQ-R` | IC USB SERIAL FULL UART 20QFN |
+| `TL1963A-33DCYR` | IC REG LIN 3.3V 1.5A SOT-223-4 |
+| `AQ3045-01ETG` | TVS DIODE 5.3VWM 12VC SOD882 |
+| `217179-0001` | CONN RCP USB2.0 TYP C 24P SMD RA |
+| `SS8050-G` | TRANS NPN 25V 1.5A SOT-23-3 |
+| `PTS645SH50SMTR92LFS` | SWITCH TACTILE SPST-NO 0.05A 12V |
 
 ---
 
