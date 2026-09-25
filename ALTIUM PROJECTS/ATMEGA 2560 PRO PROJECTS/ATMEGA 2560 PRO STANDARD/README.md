@@ -4,7 +4,7 @@
 
 This project features a custom-designed **4-layer PCB layout** for the **ATmega2560 Pro** 8-bit AVR microcontroller, built from scratch in **Altium Designer**. By studying standard reference schematics, the design was completely re-engineered, optimized, and built in a compact square form factor with high-density component placement.
 
-#### 🌟 Key Design Highlights
+## 🌟 Key Design Highlights
 * **Centered Microcontroller Layout:** The **ATmega2560-16AU** IC is placed directly at the center of the PCB, allowing symmetrical trace routing and equal signal length distribution to surrounding I/O pin headers.
 * **Custom 4-Layer Stackup (`Signal` - `GND` - `PWR` - `Signal`):** Engineered with dedicated internal Ground and Power planes to maximize noise immunity, reduce EMI, and ensure stable 16 MHz clock distribution.
 * **USB High-Speed Routing:** USB D+/D- differential pairs routed with **90 Ω differential impedance control** for reliable serial communication.
