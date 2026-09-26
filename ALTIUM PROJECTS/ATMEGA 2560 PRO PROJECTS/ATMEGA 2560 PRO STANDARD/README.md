@@ -82,6 +82,7 @@ ATMEGA 2560 PRO PROJECTS/
 ├── 📁 Docs/                                 # Datasheets & Pinout reference files
 ├── 📁 Images/                               # Documentation screenshot assets
 ├── 📁 Libs/                                 # Custom library files
+├── 📁 PDFs/                                 # Schematic & PCB Layout PDF exports
 ├── 📁 Project Logs for ATmega_2560_Pro/     # Altium ECO compilation & DRC logs
 ├── 📁 Project Outputs for ATmega_2560_Pro/  # Gerber, NC Drill, BOM & Assembly files
 │
