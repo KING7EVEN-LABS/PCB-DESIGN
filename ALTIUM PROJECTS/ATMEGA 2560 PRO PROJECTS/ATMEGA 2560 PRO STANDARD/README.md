@@ -4,13 +4,19 @@
 
 This project features a custom-designed **4-layer PCB layout** for the **ATmega2560 Pro** 8-bit AVR microcontroller, built from scratch in **Altium Designer**. By studying standard reference schematics, the design was completely re-engineered, optimized, and built in a compact square form factor with high-density component placement.
 
-## 🌟 Key Design Highlights
-* **Centered Microcontroller Layout:** The **ATmega2560-16AU** IC is placed directly at the center of the PCB, allowing symmetrical trace routing and equal signal length distribution to surrounding I/O pin headers.
-* **Custom 4-Layer Stackup (`Signal` - `GND` - `PWR` - `Signal`):** Engineered with dedicated internal Ground and Power planes to maximize noise immunity, reduce EMI, and ensure stable 16 MHz clock distribution.
-* **USB High-Speed Routing:** USB D+/D- differential pairs routed with **90 Ω differential impedance control** for reliable serial communication.
-* **Enhanced Protection Circuitry:** Integrated dedicated **ESD protection** on the USB differential lines for improved operational hardware reliability.
-* **Dual Power Rail Architecture:** Features an **AMS1117-3.3V LDO regulator** alongside the **5V main rail** to power both 5V legacy modules and 3.3V sensors.
-* **Complete Custom Libraries:** Designed custom schematic symbols, footprints, and integrated 3D STEP models for mechanical alignment.
+ ## 🌟 Key Features & Highlights
+
+- **Centered Microcontroller Layout**: The ATmega2560-16AU IC is positioned directly at the center of the PCB, allowing symmetrical trace routing and uniform signal length distribution to all surrounding I/O pin headers[cite: 1, 2].
+- **Optimized 2-Layer Board Stackup (Signal/GND - Signal/PWR)**: Designed with strategic ground pours, short routing paths, and decoupling capacitors placed in close proximity to core MCU power pins to minimize EMI noise and maintain stable 16 MHz clock execution[cite: 1, 2].
+- **USB-to-UART Interface**: Onboard CH340G converter paired with a precision 12 MHz external crystal and impedance-matched differential USB lines for reliable high-speed serial flashing[cite: 1, 2].
+- **Multi-Stage Hardware Protection**: 
+  - Integrated **SRV05-4** TVS diode array for USB ESD line protection[cite: 1, 2].
+  - **500mA Resettable PTC Fuse** to guard against USB overcurrent conditions[cite: 1, 2].
+  - **SS14 Schottky Diode** for reverse-polarity voltage protection[cite: 1, 2].
+- **Dual LDO Power Delivery**: Onboard **AMS1117-5.0V** and **AMS1117-3.3V** linear regulators, supporting flexible input via VIN (7V–12V) or Micro-USB while supplying clean 5Vand 3.3V rails for digital logic and external sensors[cite: 1, 2].
+- **Complete Peripheral Expansion**: Exposes core MCU GPIOs through dual 32-pin headers, a 16-pin analog header, and a standard 6-pin ICSP header for direct ISP bootloader programming[cite: 1, 2].
+- **Visual Status Feedback**: Equipped with 4 onboard 0603 SMD LEDs indicating **Power (Red)**, **User/D13 (Blue)**, **TX (Green)**, and **RX (Yellow)** states[cite: 1, 2].
+- **Custom CAD Library Assets**: Designed using 100% custom-built schematic symbols, PCB footprints, and integrated 3D STEP models for mechanical enclosure alignment[cite: 1, 2].
 
 ---
 
