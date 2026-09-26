@@ -41,6 +41,39 @@ This project features a custom-designed **4-layer PCB layout** for the **ATmega2
 
 ---
 
+## 🧰 Primary Component List (ATmega2560 Pro)
+
+| Category | Component Part Number | Description & Package |
+| :--- | :--- | :--- |
+| **Microcontroller** | ATmega2560-16AU | 8-bit AVR RISC MCU, 256KB Flash, 16MHz Clock (100-pin TQFP) |
+| **USB Bridge** | CH340G | USB-to-UART Serial Converter IC (SOP-16) |
+| **Voltage Regulators** | AMS1117-5.0 | 5V 1A Low Dropout Linear Voltage Regulator (SOT-223) |
+| | AMS1117-3.3 | 3.3V 1A Low Dropout Linear Voltage Regulator (SOT-223) |
+| **Crystals & Oscillators**| 7M-16.000MAAJ-T | 16 MHz Main System Crystal Oscillator (18pF, SMD 3225) |
+| | 7M-12.000MAAJ-T | 12 MHz USB Clock Crystal Oscillator (18pF, SMD 3225) |
+| **Circuit Protection** | SRV05-4MR6T1G | TVS Diode Array for USB D+/D- High-Speed ESD Line Protection (SOT-23-6) |
+| | MF-MSMF050-2 | 500mA 15V Resettable PTC Fuse (1812 Surface Mount) |
+| | SS14 | Schottky Barrier Diode 40V 1A Reverse Polarity Guard (SMA / DO-214AC) |
+| | 1N4148W | Standard High-Speed Signal Diode 75V 250mA (SOD-123) |
+| **Connectors & Interfaces**| 10118193-0001LF | Micro-USB Type-B Right-Angle Female Receptacle |
+| | TSW-116-07-G-D | 2x32-Pin Double-Row Male Pin Headers (2.54mm Pitch) |
+| | TSW-108-07-G-D | 2x16-Pin Double-Row Male Pin Header (2.54mm Pitch)[cite: 1] |
+| | TSW-103-07-G-D | 2x3-Pin ICSP Programming & Flashing Header (2.54mm Pitch) |
+| **Status LED Indicators** | 150060RS75000 | Red SMD LED (Power Indicator Rail, 0603 Package) |
+| | 150060BS75000 | Blue SMD LED (User LED / D13 Pin, 0603 Package) |
+| | 150060VS75000 | Green SMD LED (TX UART Active Line, 0603 Package) |
+| | 150060YS75000 | Yellow SMD LED (RX UART Active Line, 0603 Package) |
+| **Passives & Switches** | CC0603KRX7R9BB104 | 0.1µF (100nF) 50V X7R Decoupling Capacitors (0603 SMD) |
+| | CC0603MRX5R6BB106 | 10µF 10V X5R Filter Capacitors (0603 SMD) |
+| | CC0603JRNPO9BN220 | 22pF 50V C0G/NPO Crystal Load Capacitors (0603 SMD) |
+| | RC0603FR-0722RL | 22Ω 1% Impedance Resistors (USB D+/D- Lines, 0603 SMD) |
+| | RC0603FR-071KL | 1kΩ 1% Current Limiting Resistors (LEDs, 0603 SMD) |
+| | RC0603FR-0710KL | 10kΩ 1% Pull-Up Resistor (RESET Line, 0603 SMD) |
+| | RC0603FR-071ML | 1MΩ 1% Oscillator Feedback Resistor (0603 SMD) |
+| | TS-1187A-B-A-B | Tactile Push Button SPST-NO (Reset Switch) |
+
+---
+
 ## 📁 Repository Structure
 
 ```text
