@@ -63,14 +63,14 @@ This project features a custom-designed **4-layer PCB layout** for the **ATmega2
 | | 150060BS75000 | Blue SMD LED (User LED / D13 Pin, 0603 Package) |
 | | 150060VS75000 | Green SMD LED (TX UART Active Line, 0603 Package) |
 | | 150060YS75000 | Yellow SMD LED (RX UART Active Line, 0603 Package) |
-| **Passives & Switches** | CC0603KRX7R9BB104 | 0.1µF (100nF) 50V X7R Decoupling Capacitors (0603 SMD) |
-| | CC0603MRX5R6BB106 | 10µF 10V X5R Filter Capacitors (0603 SMD) |
+| **Capacitors** | CC0603KRX7R9BB104 | 0.1µF (100nF) 50V X7R Decoupling Capacitors (0603 SMD) |
+| | CC0603MRX5R6BB106 | 10µF 10V X5R Bulk Output Filter Capacitors (0603 SMD) |
 | | CC0603JRNPO9BN220 | 22pF 50V C0G/NPO Crystal Load Capacitors (0603 SMD) |
-| | RC0603FR-0722RL | 22Ω 1% Impedance Resistors (USB D+/D- Lines, 0603 SMD) |
+| **Resistors** | RC0603FR-0722RL | 22Ω 1% Series Damping Resistors (USB D+/D- Lines, 0603 SMD) |
 | | RC0603FR-071KL | 1kΩ 1% Current Limiting Resistors (LEDs, 0603 SMD) |
 | | RC0603FR-0710KL | 10kΩ 1% Pull-Up Resistor (RESET Line, 0603 SMD) |
-| | RC0603FR-071ML | 1MΩ 1% Oscillator Feedback Resistor (0603 SMD) |
-| | TS-1187A-B-A-B | Tactile Push Button SPST-NO (Reset Switch) |
+| | RC0603FR-071ML | 1MΩ 1% Parallel Feedback Resistor (Oscillator Circuit, 0603 SMD) |
+| **Switches** | TS-1187A-B-A-B | Tactile Push Button Switch (SPST-NO, Reset Switch) |
 
 ---
 

@@ -43,17 +43,33 @@ All schematic symbols, PCB footprints, stackup configurations, and 3D component 
 
 ---
 
-## 📂 Primary Component Lists
+## 🧰 Primary Component List (ESP32-S3 Mini)
 
-| Component ID | Description |
-| :--- | :--- |
-| `ESP32-S3-MINI-1-N8` | 2.4GHz Wi-Fi/BT Module (8MB Flash) |
-| `FT231XQ-R` | IC USB SERIAL FULL UART 20QFN |
-| `TL1963A-33DCYR` | IC REG LIN 3.3V 1.5A SOT-223-4 |
-| `AQ3045-01ETG` | TVS DIODE 5.3VWM 12VC SOD882 |
-| `217179-0001` | CONN RCP USB2.0 TYP C 24P SMD RA |
-| `SS8050-G` | TRANS NPN 25V 1.5A SOT-23-3 |
-| `PTS645SH50SMTR92LFS` | SWITCH TACTILE SPST-NO 0.05A 12V |
+| Category | Component Part Number | Description & Package |
+| :--- | :--- | :--- |
+| **Microcontroller Module** | ESP32-S3-MINI-1-N8 | Dual-Core LX7 MCU, Wi-Fi/BLE 5.0, 8MB Flash (Surface Mount Module) |
+| **USB-to-UART Bridge** | FT231XQ-R | Full-Speed USB to Full UART IC (20-QFN) |
+| **Voltage Regulator** | TL1963A-33DCYR | 3.3V 1.5A Fast Transient-Response Low Dropout Regulator (SOT-223) |
+| **Transistors & Switching** | SS8050-G | NPN Bipolar Transistor 25V 1.5A (Auto-Reset / Flashing Circuit, SOT-23) |
+| **Circuit Protection** | AQ3045-01ETG | TVS ESD Diode 5.3V 12VC (SOD-882) |
+| **Connectors & Headers** | 217179-0001 | USB 2.0 Type-C 24-Pin Female Receptacle (SMD / SMT) |
+| | 22-28-4245 | 24-Pin Single-Row Vertical Pin Header (2.54mm Pitch) |
+| | FTS-102-01-F-S | 2-Pin Single-Row Micro Header (1.27mm Pitch) |
+| | FTS-103-01-F-S | 3-Pin Single-Row Micro Header (1.27mm Pitch) |
+| | M50-1920005 | 1.27mm Pitch Jumper Shunt (Red) |
+| **Status LED Indicators** | VLMS1500-GS08 | Red SMD LED (0402 Package) |
+| | VLMG1500-GS08 | Yellow-Green SMD LED (0402 Package) |
+| **Capacitors** | CL05B104KB54PNC | 0.1µF 50V X7R Ceramic Decoupling Capacitor (0402 SMD) |
+| | CL05A105KL5NRNC | 1µF 35V X5R Ceramic Capacitor (0402 SMD) |
+| | CL05A475MO5NUN | 4.7µF 16V X5R Ceramic Capacitor (0402 SMD) |
+| | CL05A106MP8NUB8 | 10µF 10V X5R Ceramic Bulk Output Filter Capacitor (0402 SMD) |
+| **Resistors** | RC0402JR-070RL | 0Ω Jumper Resistor (0402 SMD) |
+| | RC0402FR-071KL | 1kΩ 1% Current Limiting Resistor (LEDs, 0402 SMD) |
+| | RC0402FR-074K7L | 4.7kΩ 1% Resistor (0402 SMD) |
+| | RC0402FR-0727RL | 27Ω 1% Series Damping Resistor (USB Native D+/D- Lines, 0402 SMD) |
+| | AC0402FR-075K1L | 5.1kΩ 1% Automotive Resistor (USB Type-C CC1/CC2 Pull-down, 0402 SMD) |
+| | AC0402FR-0710KL | 10kΩ 1% Automotive Resistor (EN / Boot Pull-up, 0402 SMD) |
+| **Switches** | PTS645SH50SMTR92 | Tactile Push Button Switch (SPST-NO, EN / Boot Mode Switches) |
 
 ---
 
