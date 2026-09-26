@@ -7,13 +7,13 @@ This project features a custom-designed **4-layer PCB layout** for the **ATmega2
  ## 🌟 Key Features & Highlights
 
 - **Centered Microcontroller Layout**: The ATmega2560-16AU IC is positioned directly at the center of the PCB, allowing symmetrical trace routing and uniform signal length distribution to all surrounding I/O pin headers.
-- **Optimized 2-Layer Board Stackup(`Signal` - `Ground` - `Power` - `Signal`)**: Designed with strategic ground pours, short routing paths, and decoupling capacitors placed in close proximity to core MCU power pins to minimize EMI noise and maintain stable 16 MHz clock execution.
+- **Custom 4-Layer Stackup (Signal - GND - PWR - Signal)**: Engineered with dedicated internal Ground and Power planes to maximize noise immunity, reduce EMI, and ensure stable 16 MHz clock distribution.
 - **USB-to-UART Interface**: Onboard CH340G converter paired with a precision 12 MHz external crystal and impedance-matched differential USB lines for reliable high-speed serial flashing.
 - **Multi-Stage Hardware Protection**: 
   - Integrated **SRV05-4** TVS diode array for USB ESD line protection.
   - **500mA Resettable PTC Fuse** to guard against USB overcurrent conditions.
   - **SS14 Schottky Diode** for reverse-polarity voltage protection.
-- **Dual LDO Power Delivery**: Onboard **AMS1117-5.0V** and **AMS1117-3.3V** linear regulators, supporting flexible input via VIN (7V–12V) or Micro-USB while supplying clean 5Vand 3.3V rails for digital logic and external sensors.
+- **Dual LDO Power Delivery**: Onboard **AMS1117-5.0V** and **AMS1117-3.3V** linear regulators, supporting flexible input via VIN (7V–12V) or Micro-USB while supplying clean 5V and 3.3V rails for digital logic and external sensors.
 - **Complete Peripheral Expansion**: Exposes core MCU GPIOs through dual 32-pin headers, a 16-pin analog header, and a standard 6-pin ICSP header for direct ISP bootloader programming.
 - **Visual Status Feedback**: Equipped with 4 onboard 0603 SMD LEDs indicating **Power (Red)**, **User/D13 (Blue)**, **TX (Green)**, and **RX (Yellow)** states.
 - **Custom CAD Library Assets**: Designed using 100% custom-built schematic symbols, PCB footprints, and integrated 3D STEP models for mechanical enclosure alignment.
