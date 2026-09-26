@@ -107,7 +107,7 @@ Complete circuit schematic including ESP32-S3 microcontroller circuitry, USB-C i
 
 ---
 
-### 🗂️ 2. 4-Layer PCB Board Stackup, Renders & Full Board View (`ESP32 with USBC.PcbDoc`)
+### 📁 2. 4-Layer PCB Board Stackup, Renders & Full Board View (`ESP32 with USBC.PcbDoc`)
 Complete 4-layer routing layout, JLCPCB stackup configuration (JLC04161H-3313), impedance-matched differential traces ($90\,\Omega$), and 3D renderings.
 
 #### PCB Layer Stackup (JLC04161H-3313)
@@ -120,17 +120,17 @@ Complete 4-layer routing layout, JLCPCB stackup configuration (JLC04161H-3313), 
 Preview of all signal layers and internal planes overlaid:
 ![All Layers View](Images/All%20Layers.png)
 
-#### 3D Board Views
+### 🖼️ 3D Board Views
 | Top View (3D Render) | Bottom View (3D Render) |
 | :---: | :---: |
 | ![3D Model TopView](Images/3D%20Model%20TopView.png) | ![3D Model BottomView](Images/3D%20Model%20BottomView.png) |
 
-#### 2x2 PCB Layer Breakdown
+### 🥞 2x2 PCB Layer Breakdown
 | Layer 1 (Top Signal) | Layer 2 (GND Plane) |
 | :---: | :---: |
-| ![L1 Top Layer](Images/L1.png) | ![L2 GND Plane](Images/L2.png) |
+| ![L1 Top Layer](Images/L1.png) | ![L2 Power Plane](Images/L2.png) |
 | **Layer 3 (Power Plane)** | **Layer 4 (Bottom Signal)** |
-| ![L3 Power Plane](Images/L3.png) | ![L4 Bottom Layer](Images/L4.png) |
+| ![L3 GND Plane](Images/L3.png) | ![L4 Bottom Layer](Images/L4.png) |
 
 ---
 
