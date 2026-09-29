@@ -145,10 +145,12 @@ Preview of all signal layers and internal planes overlaid:
 
 ### 📦 3. Custom Libraries & Project Files
 
-* [`ATmega_2560_Pro.PrjPcb`](./ATmega_2560_Pro.PrjPcb) — Main Altium Designer Project file
-* [`SchLib.SchLib`](./SchLib.SchLib) — Custom Schematic Symbol Library
-* [`PcbLib.PcbLib`](./PcbLib.PcbLib) — Custom Component Footprint Library
-* [`Job.OutJob`](./Job.OutJob) — Altium Manufacturing Output Job File
+| File Type | Description | File Link |
+| :--- | :--- | :--- |
+| **Project File** | Main Altium Designer Project file | [`ATmega_2560_Pro.PrjPcb`](./ATmega_2560_Pro.PrjPcb) |
+| **Schematic Library** | Custom Schematic Symbol Library | [`SchLib.SchLib`](./SchLib.SchLib) |
+| **PCB Library** | Custom Component Footprint Library | [`PcbLib.PcbLib`](./PcbLib.PcbLib) |
+| **Output Job File** | Altium Manufacturing Output Job File | [`Job.OutJob`](./Job.OutJob) |
 
 ---
 
