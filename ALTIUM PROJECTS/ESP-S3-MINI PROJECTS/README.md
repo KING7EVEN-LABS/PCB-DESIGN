@@ -196,7 +196,6 @@ This hardware design was created by following the expert hardware engineering tu
 ### 📄 Core Datasheets & Reference Material
 * **[ESP32-S3-MINI-1 Datasheet](Docs/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)** — Hardware specifications, RF layout guidelines, and pinout definitions.
 * **[ESP32 Pinout Matrix](Docs/ESP32%20pinout%20sheet.xlsx)** — Detailed GPIO multiplexing and peripheral mapping reference.
-* **[Design & Material Notes](Docs/material_note.xlsx)** — Component selection parameters, stackup constraints, and BOM notes.
 
 ---
 

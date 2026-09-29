@@ -192,6 +192,30 @@ You can inspect the complete schematic, 4-layer PCB layout, and 3D component ali
 
 ---
 
+## 🎓 Acknowledgments & References
+
+This hardware design is built using schematic references from the **RobotDyn ATmega2560 Pro** development layout, along with official hardware design guidelines provided by Microchip Technology and the open-source hardware community.
+
+* **RobotDyn:** Reference design layout for the compact ATmega2560 Pro board architecture.
+* **Microchip Technology Inc.:** Official ATmega2560 datasheet and AVR hardware design application notes.
+* **Open Source Hardware Community:** Standard footprint libraries, Fritzing layout diagrams, and AVR board design best practices.
+
+---
+
+## 📚 Additional Resources
+
+### 📄 Core Datasheets & Reference Material
+* **[ATmega2560 Datasheet](Docs/atmel-2549-8-bit-avr-microcontroller_datasheet.pdf)** — Electrical characteristics, pin definitions, hardware registers, and peripheral specifications.
+
+---
+
+### 🛠️ Design Tools & Official Documentation
+* **[RobotDyn Mega 2560 Pro Reference](https://forum.fritzing.org/t/exploded-view-of-a-mega-2560-pro/11512)** — Fritzing community pinout diagram and component footprint reference.
+* **[Microchip AVR042 Guidelines](https://ww1.microchip.com/downloads/en/AppNotes/Atmel-2521-AVR-Hardware-Design-Considerations_ApplicationNote_AVR042.pdf)** — Official AVR hardware design considerations including decoupling capacitors, reset circuits, and clock crystal setup.
+* **[Altium Designer Documentation](https://www.altium.com/documentation/altium-designer)** — Schematic capture, PCB rules, and manufacturing Output Job configuration setup.
+
+---
+
 ## 👤 Author & Maintainer
 
 <p align="center">
