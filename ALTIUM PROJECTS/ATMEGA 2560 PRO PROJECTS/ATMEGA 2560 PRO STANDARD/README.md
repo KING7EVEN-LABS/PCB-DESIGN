@@ -154,11 +154,20 @@ Preview of all signal layers and internal planes overlaid:
 
 ---
 
-### 🏭 Output Files & Manufacturing Release
+## 📄 Schematics & PCB Design Documents
+
+| File Type | Description | Download Link |
+| :--- | :--- | :--- |
+| **Schematic PDF** | Full Schematic Circuit Diagram | [`Schematic.pdf`](./PDFs/Schematic.pdf) |
+| **PCB Layout PDF** | Complete Board Layout & Layer Stackup | [`PCB_Layout.pdf`](./PDFs/Pcb_Layout.pdf) |
+
+---
+
+## 🏭 Output Files & Manufacturing Release
 
 All fabrication and assembly outputs are generated via `Job.OutJob` for standard PCB manufacturing:
 
-#### 📦 Output Files
+### 📦 Output Files
 
 * **[Gerber Files](./Project%20Outputs%20for%20ATmega_2560_Pro/Gerber/)**: Complete layer traces, silkscreen, solder mask, and paste layer outputs.
 * **[NC Drill Files](./Project%20Outputs%20for%20ATmega_2560_Pro/NC%20Drill/)**: Plated (PTH) and non-plated (NPTH) hole coordinates and drill specifications.
