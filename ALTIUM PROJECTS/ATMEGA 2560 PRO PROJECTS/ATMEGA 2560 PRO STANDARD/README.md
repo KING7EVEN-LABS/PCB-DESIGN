@@ -177,3 +177,32 @@ All fabrication and assembly outputs are generated via **[`Job.OutJob`](Job.OutJ
 | **Bill of Materials** | Comprehensive component list with designators, footprints, and manufacturer part numbers (.xlsx). | [`Bill of Materials (BOM)`](./Project%20Outputs%20for%20ATmega_2560_Pro/BOM/) |
 
 ---
+
+## 🌐 Interactive 3D & Altium 365 Web Viewer
+
+You can inspect the complete schematic, 4-layer PCB layout, and 3D component alignment directly in your web browser without installing Altium Designer:
+
+👉 **[Launch Altium 365 Interactive 3D Viewer](https://kousik-p.365.altium.com/designs/C5D37B0A-66AF-48F0-AEC0-0A81A59421F1#design)**
+
+### 🔍 Web Viewer Highlights
+* **Interactive 3D Inspection:** Full 360° board rotation and component clearance check.
+* **Cross-Probing:** Click any schematic net to highlight corresponding PCB traces.
+* **Gerber & Layer Stackup:** Real-time inspection of L1–L4 stackup and manufacturing outputs.
+* **BOM Manifest:** Live component list with footprint and designator tracking.
+
+---
+
+## 👤 Author & Maintainer
+
+<p align="center">
+  <b>Designed & Engineered by Kousik P</b><br>
+  <i>Hardware / PCB Design Engineer</i>
+</p>
+
+<p align="center">
+  <a href="https://github.com/KING7EVEN-LABS"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/kousik-p-a99b4b283"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:kousikings.eve.n7@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+</p>
+
+---
