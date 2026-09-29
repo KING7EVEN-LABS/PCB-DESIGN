@@ -205,8 +205,6 @@ This hardware design was created by following the expert hardware engineering tu
 
 ---
 
----
-
 ## 👤 Author & Maintainer
 
 <p align="center">
@@ -219,3 +217,5 @@ This hardware design was created by following the expert hardware engineering tu
   <a href="https://www.linkedin.com/in/kousik-p-a99b4b283"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:kousikings.eve.n7@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
 </p>
+
+---
