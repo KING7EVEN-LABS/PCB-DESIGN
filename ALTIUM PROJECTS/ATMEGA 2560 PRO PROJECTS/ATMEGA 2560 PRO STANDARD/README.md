@@ -210,8 +210,6 @@ This hardware design is built using schematic references from the **RobotDyn ATm
 ---
 
 ### 🛠️ Design Tools & Official Documentation
-* **[RobotDyn Mega 2560 Pro Reference](https://forum.fritzing.org/t/exploded-view-of-a-mega-2560-pro/11512)** — Fritzing community pinout diagram and component footprint reference.
-* **[Microchip AVR042 Guidelines](https://ww1.microchip.com/downloads/en/AppNotes/Atmel-2521-AVR-Hardware-Design-Considerations_ApplicationNote_AVR042.pdf)** — Official AVR hardware design considerations including decoupling capacitors, reset circuits, and clock crystal setup.
 * **[Altium Designer Documentation](https://www.altium.com/documentation/altium-designer)** — Schematic capture, PCB rules, and manufacturing Output Job configuration setup.
 
 ---
