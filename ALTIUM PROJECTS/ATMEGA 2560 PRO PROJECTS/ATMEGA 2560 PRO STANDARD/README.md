@@ -78,7 +78,6 @@ This project features a custom-designed **4-layer PCB layout** for the **ATmega2
 
 ```text
 ATMEGA 2560 PRO PROJECTS/
-├── 📁 3D/                                   # Component STEP models
 ├── 📁 Docs/                                 # Datasheets & Pinout reference files
 ├── 📁 Images/                               # Documentation screenshot assets
 ├── 📁 Libs/                                 # Custom library files
