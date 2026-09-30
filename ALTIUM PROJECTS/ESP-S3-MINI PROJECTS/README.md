@@ -79,7 +79,7 @@ All schematic symbols, PCB footprints, stackup configurations, and 3D component 
 ESP32_S3_USBC/
 ├── 📁 Docs/                                   # Datasheets & Pinout reference files
 ├── 📁 Image/                                  # 3D Renders, Schematics & Layer screenshots
-├── 📁 Libs_unsorted/                                   # Library files
+├── 📁 Libs_unsorted/                          # Library files
 ├── 📁 PDFs/                                   # Schematic & PCB Layout PDF exports
 ├── 📁 Project Logs for esp32-s3-mini/        # Altium ECO compilation logs
 ├── 📁 Project Outputs for esp32-s3-mini/     # Gerber, BOM & DRC Reports
