@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Public\Documents\Altium\Files\Projects\My_projects_example\esp32-s3-mini\ESP32 with USBC.PcbDoc
-Date     : 23-09-2026
-Time     : 05:49:58 PM
+PCB File : C:\Users\Public\Documents\Altium\Files\Projects\My_projects_example\ESP-S3-MINI PROJECTS\ESP32 with USBC.PcbDoc
+Date     : 25-09-2026
+Time     : 06:01:15 PM
 
 Processing Rule : Clearance Constraint (Gap=8mil) (InDifferentialPairClass('DIFF90')),(All)
 Rule Violations :0
@@ -88,18 +88,18 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 PCB Health Issue Category : Slots Hole Size > Length
-   Slot holes size > length: Pad J3-S4(60mil,599.843mil) on Multi-Layer
-   Slot holes size > length: Pad J3-S2(217.48mil,599.843mil) on Multi-Layer
-   Slot holes size > length: Pad J3-S3(60mil,940mil) on Multi-Layer
-   Slot holes size > length: Pad J3-S1(217.48mil,940mil) on Multi-Layer
-   Slot holes size > length: Pad J4-S2(217.48mil,60mil) on Multi-Layer
-   Slot holes size > length: Pad J4-S4(60mil,60mil) on Multi-Layer
-   Slot holes size > length: Pad J4-S1(217.48mil,400.157mil) on Multi-Layer
    Slot holes size > length: Pad J4-S3(60mil,400.157mil) on Multi-Layer
+   Slot holes size > length: Pad J4-S1(217.48mil,400.157mil) on Multi-Layer
+   Slot holes size > length: Pad J4-S4(60mil,60mil) on Multi-Layer
+   Slot holes size > length: Pad J4-S2(217.48mil,60mil) on Multi-Layer
+   Slot holes size > length: Pad J3-S1(217.48mil,940mil) on Multi-Layer
+   Slot holes size > length: Pad J3-S3(60mil,940mil) on Multi-Layer
+   Slot holes size > length: Pad J3-S2(217.48mil,599.843mil) on Multi-Layer
+   Slot holes size > length: Pad J3-S4(60mil,599.843mil) on Multi-Layer
 Issues :8
 
 
 Violations Detected : 0
 Waived Violations : 0
 PCB Health Issues : 8
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:00
