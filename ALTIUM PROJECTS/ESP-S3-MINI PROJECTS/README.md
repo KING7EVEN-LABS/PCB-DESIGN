@@ -171,7 +171,7 @@ All fabrication and assembly outputs are generated via **[`Job.OutJob`](Job.OutJ
 
 You can inspect the complete schematic, 4-layer PCB layout, and 3D component alignment directly in your web browser without installing Altium Designer:
 
-👉 **[Launch Altium 365 Interactive 3D Viewer](https://kousik-p.365.altium.com/designs/B7934EDA-CC95-4EAF-98C4-4B973A343512#design)**
+👉 **[Launch Altium 365 Interactive 3D Viewer](https://kousik-p.365.altium.com/designs/E4010A02-3EBE-431A-B9CA-96AE6264EA13#design)**
 
 ### 🔍 Web Viewer Highlights
 * **Interactive 3D Inspection:** Full 360° board rotation and component clearance check.
