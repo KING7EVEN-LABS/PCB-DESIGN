@@ -1,4 +1,4 @@
-# ⚡ ESP32-S3 USB-C Hardware Board Design
+# ⚡ ESP32-S3-DevKitM-1 Custom 4 Layer Hardware Board Design
 
 ## 📌 Project Overview
 
@@ -76,7 +76,7 @@ All schematic symbols, PCB footprints, stackup configurations, and 3D component 
 ## 📁 Repository Structure
 
 ```text
-ESP32_S3_USBC/
+ESP32-S3-DevKitM-1 Custom 4-Layer Hardware Baseboard/
 ├── 📁 Docs/                                   # Datasheets & Pinout reference files
 ├── 📁 Image/                                  # 3D Renders, Schematics & Layer screenshots
 ├── 📁 Libs_unsorted/                          # Library files
