@@ -1,4 +1,4 @@
-# ⚡ ATmega2560 Pro Hardware Board Design
+# ⚡ ATmega2560 Pro Hardware Board Design (Square-Form Factor)
 
 ## 📌 Project Overview
 
@@ -77,7 +77,7 @@ This project features a custom-designed **4-layer PCB layout** for the **ATmega2
 ## 📁 Repository Structure
 
 ```text
-ATMEGA 2560 PRO PROJECTS/
+ATMega 2560 Pro Square Form-Factor Controller Board/
 ├── 📁 Docs/                                 # Datasheets & Pinout reference files
 ├── 📁 Images/                               # Documentation screenshot assets
 ├── 📁 Libs/                                 # Custom library files
@@ -181,7 +181,7 @@ All fabrication and assembly outputs are generated via **[`Job.OutJob`](Job.OutJ
 
 You can inspect the complete schematic, 4-layer PCB layout, and 3D component alignment directly in your web browser without installing Altium Designer:
 
-👉 **[Launch Altium 365 Interactive 3D Viewer](https://kousik-p.365.altium.com/designs/F4823C6D-B292-46A3-AF28-2C3E6E675865#design)**
+👉 **[Launch Altium 365 Interactive 3D Viewer](https://kousik-p.365.altium.com/designs/22E6420D-EE67-4AA8-8317-2B3676B486C3#design)**
 
 ### 🔍 Web Viewer Highlights
 * **Interactive 3D Inspection:** Full 360° board rotation and component clearance check.
