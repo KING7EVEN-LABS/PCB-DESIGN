@@ -8,8 +8,8 @@ Welcome to the central hardware repository for custom Altium Designer PCB projec
 
 | Project Directory | Architecture / MCU | Layers | Description | Status |
 | :--- | :--- | :---: | :--- | :---: |
-| 🚀 [**ESP32-S3-DevKitM-1 Custom 4-Layer Hardware Baseboard**](./ESP32-S3-DevKitM-1%20Custom%204-Layer%20Hardware%20Baseboard/) | ESP32-S3 (Wi-Fi / BLE) | 4-Layer | High-speed, compact IoT board with USB-C | Completed |
-| ⚡ [**ATMega 2560 Pro Square Form-Factor Controller Board**](./ATMega%202560%20Pro%20Square%20Form-Factor%20Controller%20Board/) | ATmega2560-16AU (AVR) | 4-Layer | High-density 8-bit board with 90Ω USB impedance | Completed |
+| 🚀 [**ESP32-S3-DevKitM-1 Custom 4-Layer Hardware Baseboard**](./ESP32-S3-DevKitM-1%20Custom%204-Layer%20Hardware%20Baseboard/) | ESP32-S3 (Wi-Fi / BLE) | 4-Layer | High-speed IoT baseboard with native USB-C, custom footprints, and RF clearance | Completed |
+| ⚡ [**ATMega 2560 Pro Square Form-Factor Controller Board**](./ATMega%202560%20Pro%20Square%20Form-Factor%20Controller%20Board/) | ATmega2560-16AU (AVR) | 4-Layer | Compact square form-factor MCU layout with optimized pin breakout & PDN | Completed |
 
 ---
 
@@ -20,6 +20,7 @@ Every sub-directory in this repository adheres to a strict manufacturing-ready s
 * `Docs/` — Component datasheets & pinout reference sheets.
 * `Images/` — High-resolution renders, layer breakdowns, and schematics.
 * `Libs/` — Custom schematic and footprint libraries (`.SchLib`, `.PcbLib`).
+* `PDFs/` — Schematic & PCB Layout PDF exports.
 * `Project Outputs/` — Gerber files (RS-274X), NC Drill, BOM, and Pick & Place (CPL) files.
 
 ---
