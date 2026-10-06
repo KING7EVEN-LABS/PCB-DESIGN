@@ -16,10 +16,10 @@ Welcome to the central hardware repository for custom Altium Designer PCB projec
 ## ⚙️ Standard Project Architecture
 
 Every sub-directory in this repository adheres to a strict manufacturing-ready structure:
-* `3D/` — Component 3D STEP models.
+
 * `Docs/` — Component datasheets & pinout reference sheets.
 * `Images/` — High-resolution renders, layer breakdowns, and schematics.
-* `Libs/` — Custom schematic and footprint libraries (`.SchLib`, `.PcbLib`).
+* `Libs/` — Custom integrated library packages, schematic libraries, footprint libraries and Component 3D STEP models. ( `LibPkg`, `.SchLib`, `.PcbLib`, `STEP`).
 * `PDFs/` — Schematic & PCB Layout PDF exports.
 * `Project Outputs/` — Gerber files (RS-274X), NC Drill, BOM, and Pick & Place (CPL) files.
 
