@@ -1,1 +1,2 @@
-* linguist-language=C
+*.SchDoc linguist-language=Altium Designer
+*.PcbDoc linguist-language=Altium Designer
